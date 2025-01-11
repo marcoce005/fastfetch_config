@@ -1,0 +1,150 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+      "type": "kitty",
+      "source": "/usr/share/icons/garuda/dr460nized-fastfetch.png",
+      "width": 24
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "keyWidth": 10
+        },
+        {
+            "type": "os",
+            "key": "{icon} OS",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "├ Kernel",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "├󰏖 Packages",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "shell",
+            "key": "├ Shell",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "uptime",
+            "key": "└󰅐 Uptime",
+            "keyColor": "yellow"
+        },
+            "break",
+        {
+            "type": "de",
+            "key": " DE",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
+            "key": "├󰧨 Window Manager",
+            "keyColor": "blue"
+        },
+        {
+            "type": "lm",
+            "key": "├󰧨 Login Manager",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wmtheme",
+            "key": "├󰉼 WM Theme",
+            "keyColor": "blue"
+        },
+        /*{
+            "type": "theme",
+            "key": "├󰉼 Color Themes",
+            "keyColor": "blue"
+        },
+        {
+            "type": "icons",
+            "key": "├󰀻 System Icons",
+            "keyColor": "blue"
+        },
+        {
+            "type": "font",
+            "key": "├ System Fonts",
+            "keyColor": "blue"
+        },*/
+        {
+            "type": "terminal",
+            "key": "└ Terminal",
+            "keyColor": "blue"
+        },
+            "break",
+        {
+            "type": "chassis",
+            "key": "󰌢 PC",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "├󰻠 CPU",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "├󰍛 GPU",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "├󰑭 RAM",
+            "keyColor": "green"
+        },
+        {
+            "type": "disk",
+            "key": "├ Disk",
+            "keyColor": "green"
+        },
+        {
+            "type": "swap",
+            "key": "├󰓡 Swap",
+            "keyColor": "green"
+        },
+        {
+            "type": "opengl",
+            "key": "├󰍛 OpenGL",
+            "keyColor": "green"
+        },
+        {
+            "type": "vulkan",
+            "key": "├󰍛 Vulkan",
+            "keyColor": "green"
+        },
+        {
+            "type": "display",
+            "key": "├󰍹 Display(s)",
+            "keyColor": "green"
+        },
+        {
+            "type": "battery",
+            "key": "└ Battery",
+            "keyColor": "green"
+        },
+        "break",
+        {
+            "type": "wifi",
+            "key": "🌐 Network",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "localip",
+            "key": "├󰩟 Private IP",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "publicip",
+            "key": "└󰩠 Public IP",
+            "keyColor": "magenta"
+        }
+    ]
+}
